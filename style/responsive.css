@@ -1,0 +1,43 @@
+@media screen and (max-width:700px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botao{
+        margin-top: 5px;
+    }
+
+    .filme-principal{
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/700.jpg');
+        background-repeat: no-repeat;
+        background-position: center ;
+    }
+
+    .filme-principal .container{
+        width: 70%;
+    }
+
+    .logo{
+        width: 90%;
+    }
+    .filme-principal{
+        font-size: 80%;
+    }
+
+    header .container{
+        font-size: 80%;
+    }
+
+    .netflix-icon{
+        width: 100px;
+        height: auto;
+    }
+
+    .logo{
+        margin-top: 80%;
+    }
+
+
+}
